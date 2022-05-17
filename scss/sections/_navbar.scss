@@ -1,9 +1,9 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
+@use '../custom'as *;
+@use '../components/mixins'as *;
 
 .menu {
   @include gradient;
-  
+
   li {
     padding: 0 0.7rem;
 
@@ -11,6 +11,10 @@
       color: $white !important;
       text-transform: capitalize;
       font-weight: 600;
+    }
+
+    &:hover {
+      color: $white;
     }
   }
 }

@@ -22,5 +22,25 @@
       display: inline-block;
     }
   }
+}
 
+// heading line
+.heading-line::before {
+  content: '';
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $primary;
+}
+
+.heading-line::after {
+  content: '';
+  width: 2rem;
+  height: 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $primary;
 }
