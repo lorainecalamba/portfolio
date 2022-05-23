@@ -11561,4 +11561,21 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
 /*# sourceMappingURL=style.css.map */

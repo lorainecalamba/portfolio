@@ -34,7 +34,7 @@
 
     .caption {
       text-align: center;
-      @include absolue-center;
+      @include absolute-center;
       color: $white;
 
       h4 {
